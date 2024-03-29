@@ -15,7 +15,7 @@ function TopBar() {
     }, [])
 
     return (
-        <header className='topbar'>
+        <header className='topbar pt-2'>
             <div className="container">
                 <div className="row">
                     <div className="col-7">
