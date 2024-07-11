@@ -14,7 +14,7 @@ const HeroSection = () => {
         Access your money anytime, anywhere. Enjoy seamless online and mobile banking with personalized service you can trust.
       </p>
       <div class="d-flex gap-3 gap-sm-4 gap-lg-4 gap-xl-4">
-        <a href="#" class="btn btn-primary btn-lg">Sign Up</a>
+        <a href="/signUp" class="btn btn-primary btn-lg">Sign Up</a>
         <a href="#" class="btn btn-outline-secondary btn-lg">Learn more</a>
       </div>
     </div>
