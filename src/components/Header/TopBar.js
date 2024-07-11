@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react'
-import { BsFacebook, BsGithub, BsWhatsapp, BsTwitter } from "react-icons/bs";
+import { useEffect, useState } from 'react';
+import { BsFacebook, BsGithub } from "react-icons/bs";
 import { SiFiverr } from "react-icons/si";
-import { TbBrandFiverr } from "react-icons/tb";
 
 import dayjs from 'dayjs';
 

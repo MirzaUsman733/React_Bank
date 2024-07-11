@@ -14,7 +14,6 @@ function index() {
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
           <div class="container-fluid">
             <Link to="/" class="navbar-brand" ><i class="fa-solid fa-house"></i></Link>
-            {/* <h1  class="navbar-brand mb-0 text-center" >JAJJA-BANK-APP</h1> */}
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>

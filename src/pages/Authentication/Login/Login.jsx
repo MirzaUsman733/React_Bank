@@ -1,12 +1,10 @@
-import React, { useState, useEffect, useContext } from 'react'
-// import { useNavigate } from "react-router-dom";
-import { AuthenticatedContext } from '../../../Context/AuthenticatedContext';
-import { Link } from "react-router-dom"
+import { FacebookAuthProvider, GoogleAuthProvider, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
+import { useContext, useEffect, useState } from 'react';
+import { Link, useNavigate } from "react-router-dom";
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { auth, provider, facebookProvider, githubProvider } from '../../../Config/Firebase';
-import { signInWithEmailAndPassword, onAuthStateChanged, signInWithPopup, GoogleAuthProvider, FacebookAuthProvider, GithubAuthProvider } from "firebase/auth";
-import { useNavigate } from 'react-router-dom';
+import { auth, facebookProvider, githubProvider, provider } from '../../../Config/Firebase';
+import { AuthenticatedContext } from '../../../Context/AuthenticatedContext';
 
 const initialState = { email: "", password: "" }
 
